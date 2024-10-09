@@ -1,0 +1,19 @@
+
+
+@font-face {
+  font-family: "Neue Montreal Regular";
+  src: url("/fonts/Neue-Montreal-Regular.woff2") format("woff2"),
+       url("/fonts/Neue-Montreal-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ananda Personal Use Black";
+  src: url("/fonts/Ananda-Personal-Use-Black.woff2") format("woff2"),
+       url("/fonts/Neue-Montreal-Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
