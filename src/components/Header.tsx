@@ -1,8 +1,7 @@
 // Header.tsx
 import React, { useState, useEffect } from 'react';
 import { Home, ShoppingCart, Info, Phone, Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-
+import { Link } from 'react-router-dom'; 
 const MenuItem = ({ icon: Icon, text, to, onClick }) => (
   <li>
     <Link

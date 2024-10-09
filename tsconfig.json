@@ -1,8 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  }
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",  // Enables JSX support for React
+    "esModuleInterop": true,  // Enables ES Module interop for default imports
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
 }

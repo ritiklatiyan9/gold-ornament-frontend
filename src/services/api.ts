@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000'; 
+const API_URL = 'https://gold-ornament-backend.onrender.com'; 
 
 export const sendMessage = async (content: string): Promise<string> => {
   try {
